@@ -3,31 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Simple Slot Machine</title>
+    <title>Todo List</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main class="slot-machine">
-      <h1>Slot Machine</h1>
+    <main class="todo-container">
+      <h1>Todo List</h1>
 
-      <section class="info">
-        <p>Balance: $ <span id="balance">100</span></p>
-        <p>Bet: $ <span id="bet">1</span></p>
-      </section>
+      <div class="todo-container">
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addButton">Add</button>
+      </div>
 
-      <section class="reels">
-        <div class="reel" id="reel1">🍒</div>
-        <div class="reel" id="reel2">⭐️</div>
-        <div class="reel" id="reel3">🍋</div>
-      </section>
-
-      <p id="message">Choose your bet and spin!</p>
-
-      <section class="buttons">
-        <button id="minbet">Bet Min</button>
-        <button id="spin">Spin</button>
-        <button id="maxBet">Bet Max</button>
-      </section>
+      <ul id="taskList"></ul>
     </main>
     <script src="main.js"></script>
   </body>
