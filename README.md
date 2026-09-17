@@ -4,6 +4,13 @@
 
 ### How to submit your code for review:
 
+- A todo list that allows you to
+- Enter items in a list
+- Add items
+- Delete items
+- Cross out when a task is done
+  <img width="2326" height="1808" alt="image" src="https://github.com/user-attachments/assets/56b1a740-f188-4e5e-aa6f-6e196c8e0d51" />
+
 - Fork and clone this repo
 - Create a new branch called answer
 - Checkout answer branch
@@ -15,6 +22,7 @@
   - Anything specific on which you want feedback!
 
 Example:
+
 ```
 I completed the challenge: 5
 I feel good about my code: 4
